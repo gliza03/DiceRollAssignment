@@ -22,6 +22,7 @@ internal class Class1
 
             int sum = dice1 + dice2;
             results[sum]++;
+
             rolls--;
         }
         return results;
